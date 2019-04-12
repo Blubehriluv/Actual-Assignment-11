@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="Again.cpp" />
+    <ClCompile Include="Division.cpp" />
+    <ClCompile Include="Multiplication.cpp" />
+    <ClCompile Include="Subtraction.cpp" />
+    <ClCompile Include="Retrieval.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalculatorManage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
